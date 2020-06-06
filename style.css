@@ -1,13 +1,13 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .loader {
-    border: 16px solid lightseagreen;
+    border: 16px solid lightgrey;
     border-top: 16px solid blue;
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    animation: spins 2.5s linear infinite; 
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    animation: spin 2s linear infinite; 
 }
