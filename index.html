@@ -8,7 +8,28 @@
    
     <title>CSS Loaders</title>
 </head>
-<body>
-    <div class="loader"></div>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+      <h2>
+        Hello. Welcome all!
+      </h2>
+      <p>Thank you all for stopping by my loading page.."
+  </div>
+
+  <script>
+    const myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 </body>
 </html>

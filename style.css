@@ -3,7 +3,7 @@
     100% { transform: rotate(360deg); }
 }
 
-.loader {
+#loader {
     border: 16px solid lightgrey;
     border-top: 16px solid blue;
     border-radius: 50%;
