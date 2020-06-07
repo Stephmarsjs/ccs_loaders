@@ -17,7 +17,7 @@
 }
 
 #myDiv {
-    display: none;
+    display: flexbox;
     text-align: center;
 }
 
